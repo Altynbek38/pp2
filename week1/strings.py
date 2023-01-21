@@ -118,6 +118,7 @@ price = 49.95
 myorder = "I want to pay {2} dollars for {0} piece of item {1}"
 print(myorder.format(quantity, itemno, price))
 
+
 #Escape Characters--------------------------------------------------------
 txt = "We are the so-called \"Vikings\" from the north"
 print(txt)
