@@ -1,0 +1,5 @@
+#Access the Elements of an Array
+cars = ["Ford", "Volvo", "BMW"]
+
+cars[0] = "Toyota"
+print(cars)
