@@ -1,11 +1,11 @@
 class Shape:
+    def __init__(self, length):
+        self.length = length
+    
     def area1(self):
         print(0)
     
 class Square(Shape):
-    def __init__(self, length):
-        self.length = length
-    
     def area2(self):
         print(self.length ** 2)
     
