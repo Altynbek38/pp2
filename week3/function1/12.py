@@ -3,7 +3,7 @@ def histogram(num):
     for i in num:
         for j in range(i):
             l.append("*")
-        print(*l)
+        print("".join(l))
         l.clear()
 
 

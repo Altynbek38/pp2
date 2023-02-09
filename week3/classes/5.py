@@ -4,7 +4,7 @@ class Account:
         self.balance = balance
 
     def show(self):
-        print("Balance: ", self.balance)
+        print("The current balance: ", self.balance)
 
     def deposit(self, money):
         self.balance += money
