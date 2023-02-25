@@ -1,10 +1,11 @@
+#Write a Python program to convert degree to radian.
 import math
 
 def degree_to_radian(degree):
-    radian = (p / 180) * degree
-    return radian
+    return (pi / 180) * degree
 
-p = math.pi
+pi = math.pi
+
 degree = int(input("Input degree: "))
 
-print("Output radian:", degree_to_radian(degree))
+print("Output radian:", f'{degree_to_radian(degree):.6f}')

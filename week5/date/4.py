@@ -1,3 +1,4 @@
+#Write a Python program to calculate two date difference in seconds.
 import datetime
 
 x = datetime.datetime.now()

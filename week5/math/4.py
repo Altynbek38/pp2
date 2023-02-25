@@ -1,7 +1,8 @@
-def area(l, h):
-    return l * h
+#Write a Python program to calculate the area of a parallelogram.
+def area_of_parallelogram(a, b):
+    return float(a * b)
 
-l = float(input("Length of base: "))
-h = float(input("Height of parallelogram: ")) 
+a = int(input())
+b = int(input())
 
-print("Expected Output:", area(l, h))
+print(area_of_parallelogram(a, b))
