@@ -2,13 +2,12 @@
 import re
 
 def camel_to_snake(camel, snake):
-    camel = camel[0:1].upper() + camel[1:]
-    pattern = r"[A-Z][a-z]*"
+    pattern = r"[A-Z]?[a-z]*"
     words = re.findall(pattern, camel)
     for i in range(len(words)):
         if i == 0:
             snake += words[i].lower()
-        else:
+        elif i != len(words) - 1:
             snake += "_" + words[i].lower()
     return snake
 
